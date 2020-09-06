@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Countdown Clock</title>
+</head>
+<body>
+    <h1 class="countdown-title">Countdown Clock</h1>
+    
+    <div class="timer">
+        <section class="countdown">
+            <div class="countdown-number">
+                <p class="minutes countdown-time j-minutes"></p>
+                <p class="countdown-text">Minutes</p>
+            </div>
+            
+            <div class="countdown-number">
+                <p class="seconds countdown-time j-seconds"></p>
+                <p class="countdown-text">Seconds</p>
+            </div>
+        </section>
+    
+        <div class="countdown__control-block">
+            <button class="control-panel__btn j-btn-25">25 min</button>
+            <button class="control-panel__btn j-btn-15">15 min</button>
+            <button class="control-panel__btn j-btn-5">5 min</button>
+        </div>
+        <div class="countdown__control-block">
+            <button class="plus j-plus">plus</button>
+            <button class="minus j-minus">minus</button>
+        </div>
+        <div class="countdown__control-block">
+            <button class="start j-start">start</button>
+            <button class="pause j-pause">pause</button>
+            <button class="reset j-reset">reset</button>
+        </div>
+    </div>
+
+    <div class="message j-message"></div>
+    <button class="show_timer j-show_timer">Show countdown</button>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
